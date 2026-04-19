@@ -1,7 +1,5 @@
 import os
 
-# Content for the README.md
-readme_content = """# Project Title: Asthma & Air Quality Analysis
 
 ## 🛠️ Data Pipeline
 We have already performed extensive cleaning on the datasets located in the `Asthma_Data` and `EPA_data` directories. However, if you wish to reproduce our results or modify the cleaning parameters, you can re-run the pipeline:

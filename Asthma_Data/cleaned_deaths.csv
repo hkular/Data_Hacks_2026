@@ -1,0 +1,355 @@
+COUNTY,YEARS,NUMBER OF DEATHS,AGE-ADJUSTED MORTALITY RATE,COMMENT,YEAR,AGE
+California,20142016,55,2.0,,2014-2016,child
+Alameda,20142016,0,0.0,,2014-2016,child
+Alpine,20142016,0,0.0,,2014-2016,child
+Amador,20142016,0,0.0,,2014-2016,child
+Butte,20142016,0,0.0,,2014-2016,child
+Calaveras,20142016,0,0.0,,2014-2016,child
+Colusa,20142016,0,0.0,,2014-2016,child
+Contra Costa,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Del Norte,20142016,0,0.0,,2014-2016,child
+El Dorado,20142016,0,0.0,,2014-2016,child
+Fresno,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Glenn,20142016,0,0.0,,2014-2016,child
+Humboldt,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Imperial,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Inyo,20142016,0,0.0,,2014-2016,child
+Kern,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Kings,20142016,0,0.0,,2014-2016,child
+Lake,20142016,0,0.0,,2014-2016,child
+Lassen,20142016,0,0.0,,2014-2016,child
+Los Angeles,20142016,23,3.4,,2014-2016,child
+Madera,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Marin,20142016,0,0.0,,2014-2016,child
+Mariposa,20142016,0,0.0,,2014-2016,child
+Mendocino,20142016,0,0.0,,2014-2016,child
+Merced,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Modoc,20142016,0,0.0,,2014-2016,child
+Mono,20142016,0,0.0,,2014-2016,child
+Monterey,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Napa,20142016,0,0.0,,2014-2016,child
+Nevada,20142016,0,0.0,,2014-2016,child
+Orange,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Placer,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Plumas,20142016,0,0.0,,2014-2016,child
+Riverside,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Sacramento,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+San Benito,20142016,0,0.0,,2014-2016,child
+San Bernardino,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+San Diego,20142016,0,0.0,,2014-2016,child
+San Francisco,20142016,0,0.0,,2014-2016,child
+San Joaquin,20142016,0,0.0,,2014-2016,child
+San Luis Obispo,20142016,0,0.0,,2014-2016,child
+San Mateo,20142016,0,0.0,,2014-2016,child
+Santa Barbara,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Santa Clara,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Santa Cruz,20142016,0,0.0,,2014-2016,child
+Shasta,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Sierra,20142016,0,0.0,,2014-2016,child
+Siskiyou,20142016,0,0.0,,2014-2016,child
+Solano,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Sonoma,20142016,0,0.0,,2014-2016,child
+Stanislaus,20142016,0,0.0,,2014-2016,child
+Sutter,20142016,0,0.0,,2014-2016,child
+Tehama,20142016,0,0.0,,2014-2016,child
+Trinity,20142016,0,0.0,,2014-2016,child
+Tulare,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,child
+Tuolumne,20142016,0,0.0,,2014-2016,child
+Ventura,20142016,0,0.0,,2014-2016,child
+Yolo,20142016,0,0.0,,2014-2016,child
+Yuba,20142016,0,0.0,,2014-2016,child
+California,20142016,"1,126",12.2,,2014-2016,adult
+Alameda,20142016,58,15.1,,2014-2016,adult
+Alpine,20142016,0,0.0,,2014-2016,adult
+Amador,20142016,0,0.0,,2014-2016,adult
+Butte,20142016,7,,Rate not available due to statistical instability,2014-2016,adult
+Calaveras,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Colusa,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Contra Costa,20142016,39,13.8,,2014-2016,adult
+Del Norte,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+El Dorado,20142016,7,,Rate not available due to statistical instability,2014-2016,adult
+Fresno,20142016,37,18.7,,2014-2016,adult
+Glenn,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Humboldt,20142016,9,,Rate not available due to statistical instability,2014-2016,adult
+Imperial,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Inyo,20142016,0,0.0,,2014-2016,adult
+Kern,20142016,21,12.1,,2014-2016,adult
+Kings,20142016,6,,Rate not available due to statistical instability,2014-2016,adult
+Lake,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Lassen,20142016,0,0.0,,2014-2016,adult
+Los Angeles,20142016,282,12.0,,2014-2016,adult
+Madera,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Marin,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Mariposa,20142016,0,0.0,,2014-2016,adult
+Mendocino,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Merced,20142016,15,27.6,,2014-2016,adult
+Modoc,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Mono,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Monterey,20142016,18,18.1,,2014-2016,adult
+Napa,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Nevada,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Orange,20142016,53,7.2,,2014-2016,adult
+Placer,20142016,10,,Rate not available due to statistical instability,2014-2016,adult
+Plumas,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Riverside,20142016,57,10.6,,2014-2016,adult
+Sacramento,20142016,62,17.8,,2014-2016,adult
+San Benito,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+San Bernardino,20142016,68,15.8,,2014-2016,adult
+San Diego,20142016,69,8.8,,2014-2016,adult
+San Francisco,20142016,23,9.2,,2014-2016,adult
+San Joaquin,20142016,31,20.7,,2014-2016,adult
+San Luis Obispo,20142016,6,,Rate not available due to statistical instability,2014-2016,adult
+San Mateo,20142016,33,15.0,,2014-2016,adult
+Santa Barbara,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Santa Clara,20142016,66,14.6,,2014-2016,adult
+Santa Cruz,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Shasta,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Sierra,20142016,0,0.0,,2014-2016,adult
+Siskiyou,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Solano,20142016,17,15.8,,2014-2016,adult
+Sonoma,20142016,12,7.9,,2014-2016,adult
+Stanislaus,20142016,20,17.5,,2014-2016,adult
+Sutter,20142016,6,,Rate not available due to statistical instability,2014-2016,adult
+Tehama,20142016,0,0.0,,2014-2016,adult
+Trinity,20142016,0,0.0,,2014-2016,adult
+Tulare,20142016,14,15.4,,2014-2016,adult
+Tuolumne,20142016,6,,Rate not available due to statistical instability,2014-2016,adult
+Ventura,20142016,24,11.8,,2014-2016,adult
+Yolo,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+Yuba,20142016,,,Count and rate suppressed in accordance with data de-identification guidelines,2014-2016,adult
+California,20172019,29,1.1,,2017-2019,child
+Alameda,20172019,0,0.0,,2017-2019,child
+Alpine,20172019,0,0.0,,2017-2019,child
+Amador,20172019,0,0.0,,2017-2019,child
+Butte,20172019,0,0.0,,2017-2019,child
+Calaveras,20172019,0,0.0,,2017-2019,child
+Colusa,20172019,0,0.0,,2017-2019,child
+Contra Costa,20172019,0,0.0,,2017-2019,child
+Del Norte,20172019,0,0.0,,2017-2019,child
+El Dorado,20172019,0,0.0,,2017-2019,child
+Fresno,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Glenn,20172019,0,0.0,,2017-2019,child
+Humboldt,20172019,0,0.0,,2017-2019,child
+Imperial,20172019,0,0.0,,2017-2019,child
+Inyo,20172019,0,0.0,,2017-2019,child
+Kern,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Kings,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Lake,20172019,0,0.0,,2017-2019,child
+Lassen,20172019,0,0.0,,2017-2019,child
+Los Angeles,20172019,11,,Rate not available due to statistical instability,2017-2019,child
+Madera,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Marin,20172019,0,0.0,,2017-2019,child
+Mariposa,20172019,0,0.0,,2017-2019,child
+Mendocino,20172019,0,0.0,,2017-2019,child
+Merced,20172019,0,0.0,,2017-2019,child
+Modoc,20172019,0,0.0,,2017-2019,child
+Mono,20172019,0,0.0,,2017-2019,child
+Monterey,20172019,0,0.0,,2017-2019,child
+Napa,20172019,0,0.0,,2017-2019,child
+Nevada,20172019,0,0.0,,2017-2019,child
+Orange,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Placer,20172019,0,0.0,,2017-2019,child
+Plumas,20172019,0,0.0,,2017-2019,child
+Riverside,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Sacramento,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+San Benito,20172019,0,0.0,,2017-2019,child
+San Bernardino,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+San Diego,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+San Francisco,20172019,0,0.0,,2017-2019,child
+San Joaquin,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+San Luis Obispo,20172019,0,0.0,,2017-2019,child
+San Mateo,20172019,0,0.0,,2017-2019,child
+Santa Barbara,20172019,0,0.0,,2017-2019,child
+Santa Clara,20172019,0,0.0,,2017-2019,child
+Santa Cruz,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,child
+Shasta,20172019,0,0.0,,2017-2019,child
+Sierra,20172019,0,0.0,,2017-2019,child
+Siskiyou,20172019,0,0.0,,2017-2019,child
+Solano,20172019,0,0.0,,2017-2019,child
+Sonoma,20172019,0,0.0,,2017-2019,child
+Stanislaus,20172019,0,0.0,,2017-2019,child
+Sutter,20172019,0,0.0,,2017-2019,child
+Tehama,20172019,0,0.0,,2017-2019,child
+Trinity,20172019,0,0.0,,2017-2019,child
+Tulare,20172019,0,0.0,,2017-2019,child
+Tuolumne,20172019,0,0.0,,2017-2019,child
+Ventura,20172019,0,0.0,,2017-2019,child
+Yolo,20172019,0,0.0,,2017-2019,child
+Yuba,20172019,0,0.0,,2017-2019,child
+California,20172019,"1,139",11.5,,2017-2019,adult
+Alameda,20172019,67,16.1,,2017-2019,adult
+Alpine,20172019,0,0.0,,2017-2019,adult
+Amador,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Butte,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Calaveras,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Colusa,20172019,0,0.0,,2017-2019,adult
+Contra Costa,20172019,47,14.9,,2017-2019,adult
+Del Norte,20172019,0,0.0,,2017-2019,adult
+El Dorado,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Fresno,20172019,56,25.8,,2017-2019,adult
+Glenn,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Humboldt,20172019,9,,Rate not available due to statistical instability,2017-2019,adult
+Imperial,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Inyo,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Kern,20172019,23,13.6,,2017-2019,adult
+Kings,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Lake,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Lassen,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Los Angeles,20172019,261,10.5,,2017-2019,adult
+Madera,20172019,9,,Rate not available due to statistical instability,2017-2019,adult
+Marin,20172019,6,,Rate not available due to statistical instability,2017-2019,adult
+Mariposa,20172019,0,0.0,,2017-2019,adult
+Mendocino,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Merced,20172019,15,26.7,,2017-2019,adult
+Modoc,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Mono,20172019,0,0.0,,2017-2019,adult
+Monterey,20172019,15,14.2,,2017-2019,adult
+Napa,20172019,8,,Rate not available due to statistical instability,2017-2019,adult
+Nevada,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Orange,20172019,79,9.5,,2017-2019,adult
+Placer,20172019,6,,Rate not available due to statistical instability,2017-2019,adult
+Plumas,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Riverside,20172019,51,8.6,,2017-2019,adult
+Sacramento,20172019,68,18.6,,2017-2019,adult
+San Benito,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+San Bernardino,20172019,62,13.4,,2017-2019,adult
+San Diego,20172019,67,8.3,,2017-2019,adult
+San Francisco,20172019,19,6.6,,2017-2019,adult
+San Joaquin,20172019,22,12.6,,2017-2019,adult
+San Luis Obispo,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+San Mateo,20172019,14,5.7,,2017-2019,adult
+Santa Barbara,20172019,8,,Rate not available due to statistical instability,2017-2019,adult
+Santa Clara,20172019,50,10.2,,2017-2019,adult
+Santa Cruz,20172019,10,,Rate not available due to statistical instability,2017-2019,adult
+Shasta,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Sierra,20172019,0,0.0,,2017-2019,adult
+Siskiyou,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Solano,20172019,20,20.5,,2017-2019,adult
+Sonoma,20172019,24,15.2,,2017-2019,adult
+Stanislaus,20172019,25,19.1,,2017-2019,adult
+Sutter,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Tehama,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Trinity,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Tulare,20172019,16,15.5,,2017-2019,adult
+Tuolumne,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Ventura,20172019,17,7.7,,2017-2019,adult
+Yolo,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+Yuba,20172019,,,Count and rate suppressed in accordance with data de-identification guidelines,2017-2019,adult
+California,2020-2022,32,1.2,,2020-2022,child
+Alameda,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Alpine,2020-2022,0,0.0,,2020-2022,child
+Amador,2020-2022,0,0.0,,2020-2022,child
+Butte,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Calaveras,2020-2022,0,0.0,,2020-2022,child
+Colusa,2020-2022,0,0.0,,2020-2022,child
+Contra Costa,2020-2022,0,0.0,,2020-2022,child
+Del Norte,2020-2022,0,0.0,,2020-2022,child
+El Dorado,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Fresno,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Glenn,2020-2022,0,0.0,,2020-2022,child
+Humboldt,2020-2022,0,0.0,,2020-2022,child
+Imperial,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Inyo,2020-2022,0,0.0,,2020-2022,child
+Kern,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Kings,2020-2022,0,0.0,,2020-2022,child
+Lake,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Lassen,2020-2022,0,0.0,,2020-2022,child
+Los Angeles,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Madera,2020-2022,0,0.0,,2020-2022,child
+Marin,2020-2022,0,0.0,,2020-2022,child
+Mariposa,2020-2022,0,0.0,,2020-2022,child
+Mendocino,2020-2022,0,0.0,,2020-2022,child
+Merced,2020-2022,0,0.0,,2020-2022,child
+Modoc,2020-2022,0,0.0,,2020-2022,child
+Mono,2020-2022,0,0.0,,2020-2022,child
+Monterey,2020-2022,0,0.0,,2020-2022,child
+Napa,2020-2022,0,0.0,,2020-2022,child
+Nevada,2020-2022,0,0.0,,2020-2022,child
+Orange,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Placer,2020-2022,0,0.0,,2020-2022,child
+Plumas,2020-2022,0,0.0,,2020-2022,child
+Riverside,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Sacramento,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+San Benito,2020-2022,0,0.0,,2020-2022,child
+San Bernardino,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+San Diego,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+San Francisco,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+San Joaquin,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+San Luis Obispo,2020-2022,0,0.0,,2020-2022,child
+San Mateo,2020-2022,0,0.0,,2020-2022,child
+Santa Barbara,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Santa Clara,2020-2022,0,0.0,,2020-2022,child
+Santa Cruz,2020-2022,0,0.0,,2020-2022,child
+Shasta,2020-2022,0,0.0,,2020-2022,child
+Sierra,2020-2022,0,0.0,,2020-2022,child
+Siskiyou,2020-2022,0,0.0,,2020-2022,child
+Solano,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Sonoma,2020-2022,0,0.0,,2020-2022,child
+Stanislaus,2020-2022,0,0.0,,2020-2022,child
+Sutter,2020-2022,0,0.0,,2020-2022,child
+Tehama,2020-2022,0,0.0,,2020-2022,child
+Trinity,2020-2022,0,0.0,,2020-2022,child
+Tulare,2020-2022,0,0.0,,2020-2022,child
+Tuolumne,2020-2022,0,0.0,,2020-2022,child
+Ventura,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,child
+Yolo,2020-2022,0,0.0,,2020-2022,child
+Yuba,2020-2022,0,0.0,,2020-2022,child
+California,2020-2022,1158,11.5,,2020-2022,adult
+Alameda,2020-2022,69,15.5,,2020-2022,adult
+Alpine,2020-2022,0,0.0,,2020-2022,adult
+Amador,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Butte,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Calaveras,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Colusa,2020-2022,0,0.0,,2020-2022,adult
+Contra Costa,2020-2022,36,10.3,,2020-2022,adult
+Del Norte,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+El Dorado,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Fresno,2020-2022,53,23.4,,2020-2022,adult
+Glenn,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Humboldt,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Imperial,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Inyo,2020-2022,0,0.0,,2020-2022,adult
+Kern,2020-2022,23,11.8,,2020-2022,adult
+Kings,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Lake,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Lassen,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Los Angeles,2020-2022,305,11.9,,2020-2022,adult
+Madera,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Marin,2020-2022,8,,Rate not available due to statistical instability,2020-2022,adult
+Mariposa,2020-2022,0,0.0,,2020-2022,adult
+Mendocino,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Merced,2020-2022,8,,Rate not available due to statistical instability,2020-2022,adult
+Modoc,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Mono,2020-2022,0,0.0,,2020-2022,adult
+Monterey,2020-2022,7,,Rate not available due to statistical instability,2020-2022,adult
+Napa,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Nevada,2020-2022,0,0.0,,2020-2022,adult
+Orange,2020-2022,67,7.8,,2020-2022,adult
+Placer,2020-2022,11,,Rate not available due to statistical instability,2020-2022,adult
+Plumas,2020-2022,0,0.0,,2020-2022,adult
+Riverside,2020-2022,65,11.0,,2020-2022,adult
+Sacramento,2020-2022,57,14.4,,2020-2022,adult
+San Benito,2020-2022,0,0.0,,2020-2022,adult
+San Bernardino,2020-2022,88,18.3,,2020-2022,adult
+San Diego,2020-2022,67,8.3,,2020-2022,adult
+San Francisco,2020-2022,18,7.2,,2020-2022,adult
+San Joaquin,2020-2022,28,16.2,,2020-2022,adult
+San Luis Obispo,2020-2022,6,,Rate not available due to statistical instability,2020-2022,adult
+San Mateo,2020-2022,20,8.0,,2020-2022,adult
+Santa Barbara,2020-2022,9,,Rate not available due to statistical instability,2020-2022,adult
+Santa Clara,2020-2022,38,7.0,,2020-2022,adult
+Santa Cruz,2020-2022,6,,Rate not available due to statistical instability,2020-2022,adult
+Shasta,2020-2022,16,38.7,,2020-2022,adult
+Sierra,2020-2022,0,0.0,,2020-2022,adult
+Siskiyou,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Solano,2020-2022,29,24.2,,2020-2022,adult
+Sonoma,2020-2022,17,10.3,,2020-2022,adult
+Stanislaus,2020-2022,10,,Rate not available due to statistical instability,2020-2022,adult
+Sutter,2020-2022,0,0.0,,2020-2022,adult
+Tehama,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Trinity,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Tulare,2020-2022,14,13.8,,2020-2022,adult
+Tuolumne,2020-2022,8,,Rate not available due to statistical instability,2020-2022,adult
+Ventura,2020-2022,24,11.7,,2020-2022,adult
+Yolo,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult
+Yuba,2020-2022,,,Count and rate suppressed in accordance with data de-identification guidelines,2020-2022,adult

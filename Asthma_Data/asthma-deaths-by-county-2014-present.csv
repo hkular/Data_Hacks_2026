@@ -1,0 +1,532 @@
+COUNTY,YEARS,STRATA,AGE GROUP,NUMBER OF DEATHS,AGE-ADJUSTED MORTALITY RATE,COMMENT
+California,2014–2016,Total population,All ages,"1,181",9.6,
+Alameda,2014–2016,Total population,All ages,58,11.2,
+Alpine,2014–2016,Total population,All ages,0,0,
+Amador,2014–2016,Total population,All ages,0,0,
+Butte,2014–2016,Total population,All ages,7,,Rate not available due to statistical instability
+Calaveras,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Contra Costa,2014–2016,Total population,All ages,40,10.6,
+Del Norte,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+El Dorado,2014–2016,Total population,All ages,7,,Rate not available due to statistical instability
+Fresno,2014–2016,Total population,All ages,39,14.5,
+Glenn,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2014–2016,Total population,All ages,10,,Rate not available due to statistical instability
+Imperial,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2014–2016,Total population,All ages,0,0,
+Kern,2014–2016,Total population,All ages,22,9.3,
+Kings,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Lake,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2014–2016,Total population,All ages,0,0,
+Los Angeles,2014–2016,Total population,All ages,305,9.8,
+Madera,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Marin,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mariposa,2014–2016,Total population,All ages,0,0,
+Mendocino,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2014–2016,Total population,All ages,16,21.6,
+Modoc,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Monterey,2014–2016,Total population,All ages,19,14.2,
+Napa,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Nevada,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Orange,2014–2016,Total population,All ages,55,5.5,
+Placer,2014–2016,Total population,All ages,11,,Rate not available due to statistical instability
+Plumas,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Riverside,2014–2016,Total population,All ages,61,8.5,
+Sacramento,2014–2016,Total population,All ages,66,14.1,
+San Benito,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Bernardino,2014–2016,Total population,All ages,73,12.5,
+San Diego,2014–2016,Total population,All ages,69,6.5,
+San Francisco,2014–2016,Total population,All ages,23,6.8,
+San Joaquin,2014–2016,Total population,All ages,31,15.4,
+San Luis Obispo,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+San Mateo,2014–2016,Total population,All ages,33,11.2,
+Santa Barbara,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Santa Clara,2014–2016,Total population,All ages,67,11.1,
+Santa Cruz,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Shasta,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Sierra,2014–2016,Total population,All ages,0,0,
+Siskiyou,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2014–2016,Total population,All ages,20,14.4,
+Sonoma,2014–2016,Total population,All ages,12,5.9,
+Stanislaus,2014–2016,Total population,All ages,20,13,
+Sutter,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Tehama,2014–2016,Total population,All ages,0,0,
+Trinity,2014–2016,Total population,All ages,0,0,
+Tulare,2014–2016,Total population,All ages,15,12,
+Tuolumne,2014–2016,Total population,All ages,6,,Rate not available due to statistical instability
+Ventura,2014–2016,Total population,All ages,24,8.7,
+Yolo,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2014–2016,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+California,2014–2016,Child vs. adult,0–17 years,55,2,
+Alameda,2014–2016,Child vs. adult,0–17 years,0,0,
+Alpine,2014–2016,Child vs. adult,0–17 years,0,0,
+Amador,2014–2016,Child vs. adult,0–17 years,0,0,
+Butte,2014–2016,Child vs. adult,0–17 years,0,0,
+Calaveras,2014–2016,Child vs. adult,0–17 years,0,0,
+Colusa,2014–2016,Child vs. adult,0–17 years,0,0,
+Contra Costa,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Del Norte,2014–2016,Child vs. adult,0–17 years,0,0,
+El Dorado,2014–2016,Child vs. adult,0–17 years,0,0,
+Fresno,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Glenn,2014–2016,Child vs. adult,0–17 years,0,0,
+Humboldt,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Imperial,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2014–2016,Child vs. adult,0–17 years,0,0,
+Kern,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Kings,2014–2016,Child vs. adult,0–17 years,0,0,
+Lake,2014–2016,Child vs. adult,0–17 years,0,0,
+Lassen,2014–2016,Child vs. adult,0–17 years,0,0,
+Los Angeles,2014–2016,Child vs. adult,0–17 years,23,3.4,
+Madera,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Marin,2014–2016,Child vs. adult,0–17 years,0,0,
+Mariposa,2014–2016,Child vs. adult,0–17 years,0,0,
+Mendocino,2014–2016,Child vs. adult,0–17 years,0,0,
+Merced,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Modoc,2014–2016,Child vs. adult,0–17 years,0,0,
+Mono,2014–2016,Child vs. adult,0–17 years,0,0,
+Monterey,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Napa,2014–2016,Child vs. adult,0–17 years,0,0,
+Nevada,2014–2016,Child vs. adult,0–17 years,0,0,
+Orange,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Placer,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Plumas,2014–2016,Child vs. adult,0–17 years,0,0,
+Riverside,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sacramento,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Benito,2014–2016,Child vs. adult,0–17 years,0,0,
+San Bernardino,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Diego,2014–2016,Child vs. adult,0–17 years,0,0,
+San Francisco,2014–2016,Child vs. adult,0–17 years,0,0,
+San Joaquin,2014–2016,Child vs. adult,0–17 years,0,0,
+San Luis Obispo,2014–2016,Child vs. adult,0–17 years,0,0,
+San Mateo,2014–2016,Child vs. adult,0–17 years,0,0,
+Santa Barbara,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Santa Clara,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Santa Cruz,2014–2016,Child vs. adult,0–17 years,0,0,
+Shasta,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sierra,2014–2016,Child vs. adult,0–17 years,0,0,
+Siskiyou,2014–2016,Child vs. adult,0–17 years,0,0,
+Solano,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sonoma,2014–2016,Child vs. adult,0–17 years,0,0,
+Stanislaus,2014–2016,Child vs. adult,0–17 years,0,0,
+Sutter,2014–2016,Child vs. adult,0–17 years,0,0,
+Tehama,2014–2016,Child vs. adult,0–17 years,0,0,
+Trinity,2014–2016,Child vs. adult,0–17 years,0,0,
+Tulare,2014–2016,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tuolumne,2014–2016,Child vs. adult,0–17 years,0,0,
+Ventura,2014–2016,Child vs. adult,0–17 years,0,0,
+Yolo,2014–2016,Child vs. adult,0–17 years,0,0,
+Yuba,2014–2016,Child vs. adult,0–17 years,0,0,
+California,2014–2016,Child vs. adult,18+ years,"1,126",12.2,
+Alameda,2014–2016,Child vs. adult,18+ years,58,15.1,
+Alpine,2014–2016,Child vs. adult,18+ years,0,0,
+Amador,2014–2016,Child vs. adult,18+ years,0,0,
+Butte,2014–2016,Child vs. adult,18+ years,7,,Rate not available due to statistical instability
+Calaveras,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Contra Costa,2014–2016,Child vs. adult,18+ years,39,13.8,
+Del Norte,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+El Dorado,2014–2016,Child vs. adult,18+ years,7,,Rate not available due to statistical instability
+Fresno,2014–2016,Child vs. adult,18+ years,37,18.7,
+Glenn,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2014–2016,Child vs. adult,18+ years,9,,Rate not available due to statistical instability
+Imperial,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2014–2016,Child vs. adult,18+ years,0,0,
+Kern,2014–2016,Child vs. adult,18+ years,21,12.1,
+Kings,2014–2016,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Lake,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2014–2016,Child vs. adult,18+ years,0,0,
+Los Angeles,2014–2016,Child vs. adult,18+ years,282,12,
+Madera,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Marin,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mariposa,2014–2016,Child vs. adult,18+ years,0,0,
+Mendocino,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2014–2016,Child vs. adult,18+ years,15,27.6,
+Modoc,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Monterey,2014–2016,Child vs. adult,18+ years,18,18.1,
+Napa,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Nevada,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Orange,2014–2016,Child vs. adult,18+ years,53,7.2,
+Placer,2014–2016,Child vs. adult,18+ years,10,,Rate not available due to statistical instability
+Plumas,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Riverside,2014–2016,Child vs. adult,18+ years,57,10.6,
+Sacramento,2014–2016,Child vs. adult,18+ years,62,17.8,
+San Benito,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Bernardino,2014–2016,Child vs. adult,18+ years,68,15.8,
+San Diego,2014–2016,Child vs. adult,18+ years,69,8.8,
+San Francisco,2014–2016,Child vs. adult,18+ years,23,9.2,
+San Joaquin,2014–2016,Child vs. adult,18+ years,31,20.7,
+San Luis Obispo,2014–2016,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+San Mateo,2014–2016,Child vs. adult,18+ years,33,15,
+Santa Barbara,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Santa Clara,2014–2016,Child vs. adult,18+ years,66,14.6,
+Santa Cruz,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Shasta,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sierra,2014–2016,Child vs. adult,18+ years,0,0,
+Siskiyou,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2014–2016,Child vs. adult,18+ years,17,15.8,
+Sonoma,2014–2016,Child vs. adult,18+ years,12,7.9,
+Stanislaus,2014–2016,Child vs. adult,18+ years,20,17.5,
+Sutter,2014–2016,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Tehama,2014–2016,Child vs. adult,18+ years,0,0,
+Trinity,2014–2016,Child vs. adult,18+ years,0,0,
+Tulare,2014–2016,Child vs. adult,18+ years,14,15.4,
+Tuolumne,2014–2016,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Ventura,2014–2016,Child vs. adult,18+ years,24,11.8,
+Yolo,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2014–2016,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+California,2017–2019,Total population,All ages,"1,168",8.8,
+Alameda,2017–2019,Total population,All ages,67,12,
+Alpine,2017–2019,Total population,All ages,0,0,
+Amador,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Butte,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Calaveras,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2017–2019,Total population,All ages,0,0,
+Contra Costa,2017–2019,Total population,All ages,47,11,
+Del Norte,2017–2019,Total population,All ages,0,0,
+El Dorado,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Fresno,2017–2019,Total population,All ages,57,19.5,
+Glenn,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2017–2019,Total population,All ages,9,,Rate not available due to statistical instability
+Imperial,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Kern,2017–2019,Total population,All ages,24,10.5,
+Kings,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lake,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Los Angeles,2017–2019,Total population,All ages,272,8.2,
+Madera,2017–2019,Total population,All ages,10,,Rate not available due to statistical instability
+Marin,2017–2019,Total population,All ages,6,,Rate not available due to statistical instability
+Mariposa,2017–2019,Total population,All ages,0,0,
+Mendocino,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2017–2019,Total population,All ages,15,19.8,
+Modoc,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2017–2019,Total population,All ages,0,0,
+Monterey,2017–2019,Total population,All ages,15,10.5,
+Napa,2017–2019,Total population,All ages,8,,Rate not available due to statistical instability
+Nevada,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Orange,2017–2019,Total population,All ages,82,7.4,
+Placer,2017–2019,Total population,All ages,6,,Rate not available due to statistical instability
+Plumas,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Riverside,2017–2019,Total population,All ages,53,6.7,
+Sacramento,2017–2019,Total population,All ages,69,14.1,
+San Benito,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Bernardino,2017–2019,Total population,All ages,65,10.3,
+San Diego,2017–2019,Total population,All ages,68,6.2,
+San Francisco,2017–2019,Total population,All ages,19,4.9,
+San Joaquin,2017–2019,Total population,All ages,25,10.6,
+San Luis Obispo,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Mateo,2017–2019,Total population,All ages,14,4.2,
+Santa Barbara,2017–2019,Total population,All ages,8,,Rate not available due to statistical instability
+Santa Clara,2017–2019,Total population,All ages,50,7.6,
+Santa Cruz,2017–2019,Total population,All ages,11,,Rate not available due to statistical instability
+Shasta,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sierra,2017–2019,Total population,All ages,0,0,
+Siskiyou,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2017–2019,Total population,All ages,20,15.2,
+Sonoma,2017–2019,Total population,All ages,24,11.3,
+Stanislaus,2017–2019,Total population,All ages,25,14.2,
+Sutter,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tehama,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Trinity,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tulare,2017–2019,Total population,All ages,16,11.5,
+Tuolumne,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Ventura,2017–2019,Total population,All ages,17,5.8,
+Yolo,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2017–2019,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+California,2017–2019,Child vs. adult,0–17 years,29,1.1,
+Alameda,2017–2019,Child vs. adult,0–17 years,0,0,
+Alpine,2017–2019,Child vs. adult,0–17 years,0,0,
+Amador,2017–2019,Child vs. adult,0–17 years,0,0,
+Butte,2017–2019,Child vs. adult,0–17 years,0,0,
+Calaveras,2017–2019,Child vs. adult,0–17 years,0,0,
+Colusa,2017–2019,Child vs. adult,0–17 years,0,0,
+Contra Costa,2017–2019,Child vs. adult,0–17 years,0,0,
+Del Norte,2017–2019,Child vs. adult,0–17 years,0,0,
+El Dorado,2017–2019,Child vs. adult,0–17 years,0,0,
+Fresno,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Glenn,2017–2019,Child vs. adult,0–17 years,0,0,
+Humboldt,2017–2019,Child vs. adult,0–17 years,0,0,
+Imperial,2017–2019,Child vs. adult,0–17 years,0,0,
+Inyo,2017–2019,Child vs. adult,0–17 years,0,0,
+Kern,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Kings,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lake,2017–2019,Child vs. adult,0–17 years,0,0,
+Lassen,2017–2019,Child vs. adult,0–17 years,0,0,
+Los Angeles,2017–2019,Child vs. adult,0–17 years,11,,Rate not available due to statistical instability
+Madera,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Marin,2017–2019,Child vs. adult,0–17 years,0,0,
+Mariposa,2017–2019,Child vs. adult,0–17 years,0,0,
+Mendocino,2017–2019,Child vs. adult,0–17 years,0,0,
+Merced,2017–2019,Child vs. adult,0–17 years,0,0,
+Modoc,2017–2019,Child vs. adult,0–17 years,0,0,
+Mono,2017–2019,Child vs. adult,0–17 years,0,0,
+Monterey,2017–2019,Child vs. adult,0–17 years,0,0,
+Napa,2017–2019,Child vs. adult,0–17 years,0,0,
+Nevada,2017–2019,Child vs. adult,0–17 years,0,0,
+Orange,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Placer,2017–2019,Child vs. adult,0–17 years,0,0,
+Plumas,2017–2019,Child vs. adult,0–17 years,0,0,
+Riverside,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sacramento,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Benito,2017–2019,Child vs. adult,0–17 years,0,0,
+San Bernardino,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Diego,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Francisco,2017–2019,Child vs. adult,0–17 years,0,0,
+San Joaquin,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Luis Obispo,2017–2019,Child vs. adult,0–17 years,0,0,
+San Mateo,2017–2019,Child vs. adult,0–17 years,0,0,
+Santa Barbara,2017–2019,Child vs. adult,0–17 years,0,0,
+Santa Clara,2017–2019,Child vs. adult,0–17 years,0,0,
+Santa Cruz,2017–2019,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Shasta,2017–2019,Child vs. adult,0–17 years,0,0,
+Sierra,2017–2019,Child vs. adult,0–17 years,0,0,
+Siskiyou,2017–2019,Child vs. adult,0–17 years,0,0,
+Solano,2017–2019,Child vs. adult,0–17 years,0,0,
+Sonoma,2017–2019,Child vs. adult,0–17 years,0,0,
+Stanislaus,2017–2019,Child vs. adult,0–17 years,0,0,
+Sutter,2017–2019,Child vs. adult,0–17 years,0,0,
+Tehama,2017–2019,Child vs. adult,0–17 years,0,0,
+Trinity,2017–2019,Child vs. adult,0–17 years,0,0,
+Tulare,2017–2019,Child vs. adult,0–17 years,0,0,
+Tuolumne,2017–2019,Child vs. adult,0–17 years,0,0,
+Ventura,2017–2019,Child vs. adult,0–17 years,0,0,
+Yolo,2017–2019,Child vs. adult,0–17 years,0,0,
+Yuba,2017–2019,Child vs. adult,0–17 years,0,0,
+California,2017–2019,Child vs. adult,18+ years,"1,139",11.5,
+Alameda,2017–2019,Child vs. adult,18+ years,67,16.1,
+Alpine,2017–2019,Child vs. adult,18+ years,0,0,
+Amador,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Butte,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Calaveras,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2017–2019,Child vs. adult,18+ years,0,0,
+Contra Costa,2017–2019,Child vs. adult,18+ years,47,14.9,
+Del Norte,2017–2019,Child vs. adult,18+ years,0,0,
+El Dorado,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Fresno,2017–2019,Child vs. adult,18+ years,56,25.8,
+Glenn,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2017–2019,Child vs. adult,18+ years,9,,Rate not available due to statistical instability
+Imperial,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Kern,2017–2019,Child vs. adult,18+ years,23,13.6,
+Kings,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lake,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Los Angeles,2017–2019,Child vs. adult,18+ years,261,10.5,
+Madera,2017–2019,Child vs. adult,18+ years,9,,Rate not available due to statistical instability
+Marin,2017–2019,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Mariposa,2017–2019,Child vs. adult,18+ years,0,0,
+Mendocino,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2017–2019,Child vs. adult,18+ years,15,26.7,
+Modoc,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2017–2019,Child vs. adult,18+ years,0,0,
+Monterey,2017–2019,Child vs. adult,18+ years,15,14.2,
+Napa,2017–2019,Child vs. adult,18+ years,8,,Rate not available due to statistical instability
+Nevada,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Orange,2017–2019,Child vs. adult,18+ years,79,9.5,
+Placer,2017–2019,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Plumas,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Riverside,2017–2019,Child vs. adult,18+ years,51,8.6,
+Sacramento,2017–2019,Child vs. adult,18+ years,68,18.6,
+San Benito,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Bernardino,2017–2019,Child vs. adult,18+ years,62,13.4,
+San Diego,2017–2019,Child vs. adult,18+ years,67,8.3,
+San Francisco,2017–2019,Child vs. adult,18+ years,19,6.6,
+San Joaquin,2017–2019,Child vs. adult,18+ years,22,12.6,
+San Luis Obispo,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Mateo,2017–2019,Child vs. adult,18+ years,14,5.7,
+Santa Barbara,2017–2019,Child vs. adult,18+ years,8,,Rate not available due to statistical instability
+Santa Clara,2017–2019,Child vs. adult,18+ years,50,10.2,
+Santa Cruz,2017–2019,Child vs. adult,18+ years,10,,Rate not available due to statistical instability
+Shasta,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sierra,2017–2019,Child vs. adult,18+ years,0,0,
+Siskiyou,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2017–2019,Child vs. adult,18+ years,20,20.5,
+Sonoma,2017–2019,Child vs. adult,18+ years,24,15.2,
+Stanislaus,2017–2019,Child vs. adult,18+ years,25,19.1,
+Sutter,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tehama,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Trinity,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tulare,2017–2019,Child vs. adult,18+ years,16,15.5,
+Tuolumne,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Ventura,2017–2019,Child vs. adult,18+ years,17,7.7,
+Yolo,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2017–2019,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+California,2020-2022,Total population,All ages,1190,8.8,
+Alameda,2020-2022,Total population,All ages,70,11.8,
+Alpine,2020-2022,Total population,All ages,0,0,
+Amador,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Butte,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Calaveras,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2020-2022,Total population,All ages,0,0,
+Contra Costa,2020-2022,Total population,All ages,36,7.7,
+Del Norte,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+El Dorado,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Fresno,2020-2022,Total population,All ages,54,17.7,
+Glenn,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Imperial,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2020-2022,Total population,All ages,0,0,
+Kern,2020-2022,Total population,All ages,26,9.8,
+Kings,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lake,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Los Angeles,2020-2022,Total population,All ages,309,9,
+Madera,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Marin,2020-2022,Total population,All ages,8,,Rate not available due to statistical instability
+Mariposa,2020-2022,Total population,All ages,0,0,
+Mendocino,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2020-2022,Total population,All ages,8,,Rate not available due to statistical instability
+Modoc,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2020-2022,Total population,All ages,0,0,
+Monterey,2020-2022,Total population,All ages,7,,Rate not available due to statistical instability
+Napa,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Nevada,2020-2022,Total population,All ages,0,0,
+Orange,2020-2022,Total population,All ages,69,6.1,
+Placer,2020-2022,Total population,All ages,11,,Rate not available due to statistical instability
+Plumas,2020-2022,Total population,All ages,0,0,
+Riverside,2020-2022,Total population,All ages,67,8.4,
+Sacramento,2020-2022,Total population,All ages,59,11.2,
+San Benito,2020-2022,Total population,All ages,0,0,
+San Bernardino,2020-2022,Total population,All ages,93,14.3,
+San Diego,2020-2022,Total population,All ages,68,6.3,
+San Francisco,2020-2022,Total population,All ages,19,6.1,
+San Joaquin,2020-2022,Total population,All ages,31,13.3,
+San Luis Obispo,2020-2022,Total population,All ages,6,,Rate not available due to statistical instability
+San Mateo,2020-2022,Total population,All ages,20,5.9,
+Santa Barbara,2020-2022,Total population,All ages,10,,Rate not available due to statistical instability
+Santa Clara,2020-2022,Total population,All ages,38,5.2,
+Santa Cruz,2020-2022,Total population,All ages,6,,Rate not available due to statistical instability
+Shasta,2020-2022,Total population,All ages,16,28.7,
+Sierra,2020-2022,Total population,All ages,0,0,
+Siskiyou,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2020-2022,Total population,All ages,30,18.9,
+Sonoma,2020-2022,Total population,All ages,17,7.7,
+Stanislaus,2020-2022,Total population,All ages,10,,Rate not available due to statistical instability
+Sutter,2020-2022,Total population,All ages,0,0,
+Tehama,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Trinity,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tulare,2020-2022,Total population,All ages,14,10.2,
+Tuolumne,2020-2022,Total population,All ages,8,,Rate not available due to statistical instability
+Ventura,2020-2022,Total population,All ages,25,9.2,
+Yolo,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2020-2022,Total population,All ages,,,Count and rate suppressed in accordance with data de-identification guidelines
+California,2020-2022,Child vs. adult,0–17 years,32,1.2,
+Alameda,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Alpine,2020-2022,Child vs. adult,0–17 years,0,0,
+Amador,2020-2022,Child vs. adult,0–17 years,0,0,
+Butte,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Calaveras,2020-2022,Child vs. adult,0–17 years,0,0,
+Colusa,2020-2022,Child vs. adult,0–17 years,0,0,
+Contra Costa,2020-2022,Child vs. adult,0–17 years,0,0,
+Del Norte,2020-2022,Child vs. adult,0–17 years,0,0,
+El Dorado,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Fresno,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Glenn,2020-2022,Child vs. adult,0–17 years,0,0,
+Humboldt,2020-2022,Child vs. adult,0–17 years,0,0,
+Imperial,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2020-2022,Child vs. adult,0–17 years,0,0,
+Kern,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Kings,2020-2022,Child vs. adult,0–17 years,0,0,
+Lake,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2020-2022,Child vs. adult,0–17 years,0,0,
+Los Angeles,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Madera,2020-2022,Child vs. adult,0–17 years,0,0,
+Marin,2020-2022,Child vs. adult,0–17 years,0,0,
+Mariposa,2020-2022,Child vs. adult,0–17 years,0,0,
+Mendocino,2020-2022,Child vs. adult,0–17 years,0,0,
+Merced,2020-2022,Child vs. adult,0–17 years,0,0,
+Modoc,2020-2022,Child vs. adult,0–17 years,0,0,
+Mono,2020-2022,Child vs. adult,0–17 years,0,0,
+Monterey,2020-2022,Child vs. adult,0–17 years,0,0,
+Napa,2020-2022,Child vs. adult,0–17 years,0,0,
+Nevada,2020-2022,Child vs. adult,0–17 years,0,0,
+Orange,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Placer,2020-2022,Child vs. adult,0–17 years,0,0,
+Plumas,2020-2022,Child vs. adult,0–17 years,0,0,
+Riverside,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sacramento,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Benito,2020-2022,Child vs. adult,0–17 years,0,0,
+San Bernardino,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Diego,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Francisco,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Joaquin,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+San Luis Obispo,2020-2022,Child vs. adult,0–17 years,0,0,
+San Mateo,2020-2022,Child vs. adult,0–17 years,0,0,
+Santa Barbara,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Santa Clara,2020-2022,Child vs. adult,0–17 years,0,0,
+Santa Cruz,2020-2022,Child vs. adult,0–17 years,0,0,
+Shasta,2020-2022,Child vs. adult,0–17 years,0,0,
+Sierra,2020-2022,Child vs. adult,0–17 years,0,0,
+Siskiyou,2020-2022,Child vs. adult,0–17 years,0,0,
+Solano,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Sonoma,2020-2022,Child vs. adult,0–17 years,0,0,
+Stanislaus,2020-2022,Child vs. adult,0–17 years,0,0,
+Sutter,2020-2022,Child vs. adult,0–17 years,0,0,
+Tehama,2020-2022,Child vs. adult,0–17 years,0,0,
+Trinity,2020-2022,Child vs. adult,0–17 years,0,0,
+Tulare,2020-2022,Child vs. adult,0–17 years,0,0,
+Tuolumne,2020-2022,Child vs. adult,0–17 years,0,0,
+Ventura,2020-2022,Child vs. adult,0–17 years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yolo,2020-2022,Child vs. adult,0–17 years,0,0,
+Yuba,2020-2022,Child vs. adult,0–17 years,0,0,
+California,2020-2022,Child vs. adult,18+ years,1158,11.5,
+Alameda,2020-2022,Child vs. adult,18+ years,69,15.5,
+Alpine,2020-2022,Child vs. adult,18+ years,0,0,
+Amador,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Butte,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Calaveras,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Colusa,2020-2022,Child vs. adult,18+ years,0,0,
+Contra Costa,2020-2022,Child vs. adult,18+ years,36,10.3,
+Del Norte,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+El Dorado,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Fresno,2020-2022,Child vs. adult,18+ years,53,23.4,
+Glenn,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Humboldt,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Imperial,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Inyo,2020-2022,Child vs. adult,18+ years,0,0,
+Kern,2020-2022,Child vs. adult,18+ years,23,11.8,
+Kings,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lake,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Lassen,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Los Angeles,2020-2022,Child vs. adult,18+ years,305,11.9,
+Madera,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Marin,2020-2022,Child vs. adult,18+ years,8,,Rate not available due to statistical instability
+Mariposa,2020-2022,Child vs. adult,18+ years,0,0,
+Mendocino,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Merced,2020-2022,Child vs. adult,18+ years,8,,Rate not available due to statistical instability
+Modoc,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Mono,2020-2022,Child vs. adult,18+ years,0,0,
+Monterey,2020-2022,Child vs. adult,18+ years,7,,Rate not available due to statistical instability
+Napa,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Nevada,2020-2022,Child vs. adult,18+ years,0,0,
+Orange,2020-2022,Child vs. adult,18+ years,67,7.8,
+Placer,2020-2022,Child vs. adult,18+ years,11,,Rate not available due to statistical instability
+Plumas,2020-2022,Child vs. adult,18+ years,0,0,
+Riverside,2020-2022,Child vs. adult,18+ years,65,11,
+Sacramento,2020-2022,Child vs. adult,18+ years,57,14.4,
+San Benito,2020-2022,Child vs. adult,18+ years,0,0,
+San Bernardino,2020-2022,Child vs. adult,18+ years,88,18.3,
+San Diego,2020-2022,Child vs. adult,18+ years,67,8.3,
+San Francisco,2020-2022,Child vs. adult,18+ years,18,7.2,
+San Joaquin,2020-2022,Child vs. adult,18+ years,28,16.2,
+San Luis Obispo,2020-2022,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+San Mateo,2020-2022,Child vs. adult,18+ years,20,8,
+Santa Barbara,2020-2022,Child vs. adult,18+ years,9,,Rate not available due to statistical instability
+Santa Clara,2020-2022,Child vs. adult,18+ years,38,7,
+Santa Cruz,2020-2022,Child vs. adult,18+ years,6,,Rate not available due to statistical instability
+Shasta,2020-2022,Child vs. adult,18+ years,16,38.7,
+Sierra,2020-2022,Child vs. adult,18+ years,0,0,
+Siskiyou,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Solano,2020-2022,Child vs. adult,18+ years,29,24.2,
+Sonoma,2020-2022,Child vs. adult,18+ years,17,10.3,
+Stanislaus,2020-2022,Child vs. adult,18+ years,10,,Rate not available due to statistical instability
+Sutter,2020-2022,Child vs. adult,18+ years,0,0,
+Tehama,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Trinity,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Tulare,2020-2022,Child vs. adult,18+ years,14,13.8,
+Tuolumne,2020-2022,Child vs. adult,18+ years,8,,Rate not available due to statistical instability
+Ventura,2020-2022,Child vs. adult,18+ years,24,11.7,
+Yolo,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines
+Yuba,2020-2022,Child vs. adult,18+ years,,,Count and rate suppressed in accordance with data de-identification guidelines

@@ -1,0 +1,89 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "California Death Statistical Master Files, death certificates",
+  "data_license": "Terms of Use",
+  "de_identification_method": "Counts ≤ 5 and their rates are suppressed in accordance with CalHHS Data De-identification Guidelines. Rates based on counts <12 are suppressed due to statistical instability. ",
+  "description": "This dataset contains counts and rates (per 1,000,000 residents) of asthma deaths among Californians statewide and by county. The data are stratified by age group (all ages, 0-17, 18+) and reported for 3-year periods. The data are derived from the California Death Statistical Master Files, which contain information collected from death certificates. All deaths with asthma coded as the underlying cause of death (ICD-10 CM J45 or J46) are included.",
+  "geo_coverage": "California",
+  "geographic_granularity": "county",
+  "keywords": [
+    "CCDPHP",
+    "adverse childhood experiences trauma adversity lets get healthy california lghc",
+    "asthma",
+    "california Breathing",
+    "deaths",
+    "mortality",
+    "vital statistics"
+  ],
+  "limitations": "Limitations",
+  "name": "asthma-deaths-by-county",
+  "program_web_page": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathing.aspx ",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This dataset contains counts and rates (per 1,000,000 residents) of asthma deaths among Californians statewide and by county. The data are stratified by age group (all ages, 0-17, 18+) and reported for 3-year periods. The data are derived from the California Death Statistical Master Files, which contain information collected from death certificates.",
+      "format": "CSV",
+      "hash": "1ec736919a5f6c433990c06b002b65d9",
+      "name": "asthma-deaths-by-county-2014-present",
+      "path": "asthma-deaths-by-county-2014-present.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "County of residence\r\n",
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "description": "3-year period during which data were collected\r\n",
+            "name": "YEARS",
+            "type": "string"
+          },
+          {
+            "description": "General demographic category under which responses have been stratified\r\n",
+            "name": "STRATA",
+            "type": "string"
+          },
+          {
+            "description": "All ages, 0-17 years, 18+ years\r\n",
+            "name": "AGE GROUP",
+            "type": "string"
+          },
+          {
+            "description": "Number of deaths due to asthma (source: Vital Statistics)\r\n",
+            "name": "NUMBER OF DEATHS",
+            "type": "string"
+          },
+          {
+            "description": "Calculated by dividing the number of asthma deaths by the estimated population in that county and age group, age-adjusting to the 2000 U.S. Census, and multiplying by 1,000,000\r\n",
+            "name": "AGE-ADJUSTED MORTALITY RATE",
+            "type": "string"
+          },
+          {
+            "description": "Information on data suppression. Counts less than or equal to 5 and their rates are suppressed in accordance with CHHS Data De-identification Guidelines. Rates based on counts less than 12 are suppressed due to statistical instability. \r\n",
+            "name": "COMMENT",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/5ea28f96-7bb6-4c18-9c0d-020484fab181/resource/0fe2c650-e4e2-4de8-b2aa-5a14e01e9e61/download/asthma-deaths-by-county-2014_2022.csv",
+          "title": "Asthma Deaths by County 2014-present"
+        }
+      ],
+      "title": "Asthma Deaths by County 2014-present"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "California Breathing, Environmental Health Investigations Branch",
+      "web": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathingCountyAsthmaProfiles.aspx"
+    }
+  ],
+  "temporal_coverage": "2014-2019",
+  "title": "Asthma Deaths by County"
+}

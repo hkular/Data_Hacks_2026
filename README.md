@@ -42,9 +42,3 @@ The `dashboard/` folder contains a web-based interface (Dash) that allows users 
 This project is available under the **MIT License**.
 """
 
-# Writing the content to a file
-file_path = 'README.md'
-with open(file_path, 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print(f"File saved to {file_path}")

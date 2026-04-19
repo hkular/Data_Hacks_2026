@@ -35,6 +35,7 @@ subset = merge_data.loc[:, ['year', 'county', 'AGE', 'AGE_ADJUSTED_ED_VISIT_RATE
 
 # Realized that if we include all particles in our equation, there would always be NaNs for some counties
 # or years in one of the particles, so first just test one by one with available data
+sig_particles = [] # keep track of a list of significant particles
 for particle in particles:
     select_particle = [particle]
     subset_particle = subset.loc[subset['particle']==select_particle[0] ,:]
@@ -54,7 +55,6 @@ for particle in particles:
         # concentration within each county, then run regression. So slope interpretation is now: with every additional unit of pollutant
         # concentration with respect to the mean of a given county, what's the change in ED visit rate with respect to the mean in that
         # same county. 
-
         group['y_demeaned'] = group['AGE_ADJUSTED_ED_VISIT_RATE'] - group.groupby('county')['AGE_ADJUSTED_ED_VISIT_RATE'].transform('mean')
         group['X_demeaned'] = group[select_particle] - group.groupby('county')[select_particle].transform('mean')
         group['X_mean'] = group.groupby('county')[select_particle].transform('mean') # also save the mean particle concentration itself
@@ -83,8 +83,8 @@ for particle in particles:
         print(f"\t\tMean Pollutant Concentration: {group[['county', 'X_mean']].drop_duplicates()}\n\n")
         print("="*70)
 
+        # Only include particles that both have statistically significant slope AND have datapoints larger than 100
+        if pval < 0.05 and len(y)>100:
+            sig_particles.append(f'{name}, {select_particle[0]}')
 
-
-
-
-
+print(f"List of significant particles are: \n{'\n'.join(sig_particles)}")

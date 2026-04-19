@@ -15,9 +15,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 
 
-df_er = pd.read_csv('/Volumes/serenceslab/holly/Data_Hacks_2026/Asthma_Data/cleaned_er.csv')
-df_d = pd.read_csv('/Volumes/serenceslab/holly/Data_Hacks_2026/Asthma_Data/cleaned_deaths.csv')
-df_p = pd.read_csv('/Volumes/serenceslab/holly/Data_Hacks_2026/Asthma_Data/cleaned_prevalence.csv')
+df_er = pd.read_csv('Asthma_Data/cleaned_er.csv')
+df_d = pd.read_csv('Asthma_Data/cleaned_deaths.csv')
+df_p = pd.read_csv('Asthma_Data/cleaned_prevalence.csv')
 
 df = df_er.copy()
 

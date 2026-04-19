@@ -12,31 +12,33 @@ California Asthma & Air Quality Dashboard
 ==========================================
 Interactive choropleth map with metric switcher, year slider, and animation.
 
-SETUP:
-    pip install dash plotly pandas requests
-
-RUN:
-    python california_aqi_dashboard.py
-    open http://127.0.0.1:8050
 """
 
 import requests
-import numpy as np
 import pandas as pd
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output, ctx
+from pathlib import Path
+import os
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 1. LOAD DATA
 # ─────────────────────────────────────────────────────────────────────────────
+try:
+    # Get the directory of the current script
+    script_dir = Path(os.path.abspath(__file__)).parent
+    # Go up one level to the main_repo
+    BASE_DIR = script_dir.parent
+except NameError:
+    # Fallback: IDE working directory
+    BASE_DIR = Path(os.getcwd()).parent
 
-BASE = "/Volumes/serenceslab/holly/Data_Hacks_2026"
 
-df_death      = pd.read_csv(f"{BASE}/Asthma_Data/cleaned_deaths.csv")
-df_er         = pd.read_csv(f"{BASE}/Asthma_Data/cleaned_er.csv")
-df_prevalence = pd.read_csv(f"{BASE}/Asthma_Data/cleaned_prevalence.csv")
-df_aqi        = pd.read_csv(f"{BASE}/EPA_data/air_aqi_and_particles_annual/aqi_2015-2022.csv")
-df_pollutants = pd.read_csv(f"{BASE}/EPA_data/air_aqi_and_particles_annual/2015-2022.csv")
+df_death      = pd.read_csv(f"{BASE_DIR}/Asthma_Data/cleaned_deaths.csv")
+df_er         = pd.read_csv(f"{BASE_DIR}/Asthma_Data/cleaned_er.csv")
+df_prevalence = pd.read_csv(f"{BASE_DIR}/Asthma_Data/cleaned_prevalence.csv")
+df_aqi        = pd.read_csv(f"{BASE_DIR}/EPA_data/air_aqi_and_particles_annual/aqi_2015-2022.csv")
+df_pollutants = pd.read_csv(f"{BASE_DIR}/EPA_data/air_aqi_and_particles_annual/2015-2022.csv")
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 2. NORMALISE → standard shape: {county, year, fips, value}
@@ -124,8 +126,6 @@ prev = df_prevalence.copy()
 prev = clean_years(prev, 'YEARS')
 prev = expand_years(prev)
 prev.columns = prev.columns.str.strip()
-
-print("AGE values in prevalence:", prev["AGE"].unique())
 prev = prev.rename(columns={"COUNTY": "county", "YEAR": "year",
                               "CURRENT PREVALENCE": "value"})
 
@@ -156,14 +156,14 @@ particle_dfs = {
 
 METRICS = {
     "death_rate": {
-        "label": "Age-adjusted mortality rate",
+        "label": "Age-adjusted asthma mortality rate",
         "df": death,
         "unit": "per 100k",
         "colorscale": [[0,"#fff5f0"],[0.5,"#fc8d59"],[1,"#67000d"]],
         "group": "Asthma outcomes",
     },
     "er_visits": {
-        "label": "Age-adjusted ER visit rate",
+        "label": "Age-adjusted asthma ER visit rate",
         "df": er,
         "unit": "per 100k",
         "colorscale": [[0,"#f7fbff"],[0.5,"#6baed6"],[1,"#08306b"]],
@@ -242,7 +242,11 @@ CARD  = {"background":"#fff","borderRadius":"10px","border":"0.5px solid #e0e0e0
 LABEL = {"fontSize":"11px","color":"#888","fontFamily":"sans-serif",
          "textTransform":"uppercase","letterSpacing":"0.5px","display":"block","marginBottom":"6px"}
 
-app = Dash(__name__)
+#app = Dash(__name__)
+app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server 
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8050)
 
 app.layout = html.Div(
     style={"fontFamily":"Georgia, serif","backgroundColor":"#f9f8f5",
@@ -276,6 +280,7 @@ app.layout = html.Div(
                 dcc.Interval(id="anim-interval", interval=900, disabled=True, n_intervals=0),
             ]),
         ]),
+        # Slider
 
         # Metric cards
         html.Div(id="metric-cards",
@@ -292,8 +297,15 @@ app.layout = html.Div(
                 html.Div(id="rankings",      style=CARD),
             ]),
         ]),
+        
+        html.Div(
+            dcc.Slider(id="year-slider", min=0, max=1, value=0),
+            style={"display": "none"}
+        )
+        
     ]
 )
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 6. CALLBACKS
@@ -310,10 +322,12 @@ def build_slider(metric_key):
     if not years:
         return html.P("No year data", style={"fontSize":"13px","color":"#888"})
     marks = {y: {"label": str(y), "style": {"fontSize":"11px","fontFamily":"sans-serif"}}
-             for y in years}
+              for y in years}
     return dcc.Slider(id="year-slider", min=years[0], max=years[-1],
                       value=years[-1], marks=marks, step=1,
                       tooltip={"placement":"bottom","always_visible":False})
+
+
 
 
 @app.callback(

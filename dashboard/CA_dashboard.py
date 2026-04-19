@@ -76,7 +76,7 @@ def add_fips(df, county_col="county"):
     return df
 
 
-# fix years issue
+# fix years hyphen
 def expand_years(df, col="YEARS"):
     years = df[col].str.split("-", expand=True).astype(int)
     df["year_start"] = years[0]
@@ -96,6 +96,16 @@ def clean_years(df, col="YEARS"):
         .str.strip("-")                           # remove leading/trailing dashes
     )
     return df
+
+# load prediction data after fips def
+try:
+    df_predicted = pd.read_csv(f"{BASE_DIR}/Asthma_Data/predicted.csv")
+    # Ensure fips exists in predicted.csv
+    if "fips" not in df_predicted.columns:
+        df_predicted = add_fips(df_predicted)
+except:
+    # Placeholder for testing
+    df_predicted = pd.DataFrame(columns=["county", "fips", "age_group", "risk_score"])
 
 
 # ── Deaths ──────────────────────────────────────────────────────────────────
@@ -250,66 +260,151 @@ if __name__ == "__main__":
 
 app.layout = html.Div(
     style={"fontFamily":"Georgia, serif","backgroundColor":"#f9f8f5",
-           "minHeight":"100vh","padding":"24px 32px"},
+           "minHeight":"100vh","padding":"24px 32px", "overflowY": "auto"},
     children=[
-        # Header
-        html.H1("California Asthma & Air Quality Dashboard",
-                style={"margin":"0 0 4px","fontSize":"26px","fontWeight":"500",
-                       "color":"#1a1a1a","letterSpacing":"-0.5px"}),
-        html.P("County-level data · Select a metric and drag the year slider",
+        # ── NEW SECTION: PREDICTION TOP ──────────────────────────────────────
+        html.H1("Asthma Risk Predictor", 
+                style={"margin":"0 0 4px","fontSize":"26px","fontWeight":"500","color":"#1a1a1a"}),
+        html.P("Predictive modeling based on demographic and environmental factors.",
                style={"margin":"0 0 20px","color":"#777","fontSize":"13px","fontFamily":"sans-serif"}),
-
-        # Controls
-        html.Div(style={"display":"flex","gap":"20px","alignItems":"flex-end",
-                        "marginBottom":"20px","flexWrap":"wrap"}, children=[
-            html.Div(style={"flex":"1","minWidth":"280px"}, children=[
-                html.Label("Metric", style=LABEL),
-                dcc.Dropdown(id="metric-select", options=build_dropdown_options(),
-                             value="death_rate", clearable=False,
-                             style={"fontFamily":"sans-serif","fontSize":"13px"}),
-            ]),
-            html.Div(style={"flex":"2","minWidth":"300px"}, children=[
-                html.Label("Year", style=LABEL),
-                html.Div(id="slider-wrap"),
-            ]),
-            html.Div(style={"display":"flex","gap":"8px","paddingBottom":"2px"}, children=[
-                html.Button("▶  Play", id="play-btn",
-                    style={"padding":"8px 16px","fontSize":"13px","fontFamily":"sans-serif",
-                           "cursor":"pointer","border":"0.5px solid #ccc",
-                           "borderRadius":"6px","background":"#fff","whiteSpace":"nowrap"}),
-                dcc.Interval(id="anim-interval", interval=900, disabled=True, n_intervals=0),
-            ]),
-        ]),
-        # Slider
-
-        # Metric cards
-        html.Div(id="metric-cards",
-                 style={"display":"grid","gridTemplateColumns":"repeat(4,1fr)",
-                        "gap":"12px","marginBottom":"20px"}),
-
-        # Map + sidebar
-        html.Div(style={"display":"grid","gridTemplateColumns":"1fr 300px","gap":"18px"}, children=[
-            dcc.Graph(id="choro-map",
-                      style={"height":"600px","borderRadius":"10px",
-                             "border":"0.5px solid #e0e0e0","overflow":"hidden"}),
+        
+        html.Div(style={**CARD, "marginBottom":"40px", "display":"grid", "gridTemplateColumns":"300px 1fr", "gap":"24px"}, children=[
+            # Prediction Controls
             html.Div([
-                html.Div(id="county-detail", style={**CARD,"marginBottom":"16px"}),
-                html.Div(id="rankings",      style=CARD),
+                html.Label("Select Age Group", style=LABEL),
+                dcc.Dropdown(id="pred-age-select", 
+                             options=[{"label": "Adult", "value": "adult"}, {"label": "Child", "value": "child"}],
+                             value="adult", clearable=False, style={"marginBottom":"20px", "fontFamily":"sans-serif"}),
+                
+                html.Label("Select County", style=LABEL),
+                dcc.Dropdown(id="pred-county-select", 
+                             options=[{"label": c, "value": c} for c in sorted(CA_FIPS.keys())],
+                             value="Alameda", clearable=False, style={"fontFamily":"sans-serif"}),
+                
+                html.Div(id="risk-score-display", style={"marginTop":"40px"})
             ]),
+            
+            # Prediction Map
+            dcc.Graph(id="pred-map", style={"height":"450px"})
         ]),
-        
-        html.Div(
-            dcc.Slider(id="year-slider", min=0, max=1, value=0),
-            style={"display": "none"}
-        )
-        
+
+        html.Hr(style={"border":"0","borderTop":"1px solid #e0e0e0","margin":"40px 0"}),
+
+        # ── EXISTING DASHBOARD SECTION ────────────────────────────────────────
+            # Header
+            html.H1("California Asthma & Air Quality Dashboard",
+                    style={"margin":"0 0 4px","fontSize":"26px","fontWeight":"500",
+                           "color":"#1a1a1a","letterSpacing":"-0.5px"}),
+            html.P("County-level data · Select a metric and drag the year slider",
+                   style={"margin":"0 0 20px","color":"#777","fontSize":"13px","fontFamily":"sans-serif"}),
+
+            # Controls
+            html.Div(style={"display":"flex","gap":"20px","alignItems":"flex-end",
+                            "marginBottom":"20px","flexWrap":"wrap"}, children=[
+                html.Div(style={"flex":"1","minWidth":"280px"}, children=[
+                    html.Label("Metric", style=LABEL),
+                    dcc.Dropdown(id="metric-select", options=build_dropdown_options(),
+                                 value="death_rate", clearable=False,
+                                 style={"fontFamily":"sans-serif","fontSize":"13px"}),
+                ]),
+                html.Div(style={"flex":"2","minWidth":"300px"}, children=[
+                    html.Label("Year", style=LABEL),
+                    html.Div(id="slider-wrap"),
+                ]),
+                html.Div(style={"display":"flex","gap":"8px","paddingBottom":"2px"}, children=[
+                    html.Button("▶  Play", id="play-btn",
+                        style={"padding":"8px 16px","fontSize":"13px","fontFamily":"sans-serif",
+                               "cursor":"pointer","border":"0.5px solid #ccc",
+                               "borderRadius":"6px","background":"#fff","whiteSpace":"nowrap"}),
+                    dcc.Interval(id="anim-interval", interval=900, disabled=True, n_intervals=0),
+                ]),
+            ]),
+            # Slider
+
+            # Metric cards
+            html.Div(id="metric-cards",
+                     style={"display":"grid","gridTemplateColumns":"repeat(4,1fr)",
+                            "gap":"12px","marginBottom":"20px"}),
+
+            # Map + sidebar
+            html.Div(style={"display":"grid","gridTemplateColumns":"1fr 300px","gap":"18px"}, children=[
+                dcc.Graph(id="choro-map",
+                          style={"height":"600px","borderRadius":"10px",
+                                 "border":"0.5px solid #e0e0e0","overflow":"hidden"}),
+                html.Div([
+                    html.Div(id="county-detail", style={**CARD,"marginBottom":"16px"}),
+                    html.Div(id="rankings",      style=CARD),
+                ]),
+            ]),
+            
+            html.Div(
+                dcc.Slider(id="year-slider", min=0, max=1, value=0),
+                style={"display": "none"}
+            )
+                    
     ]
 )
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 6. CALLBACKS
 # ─────────────────────────────────────────────────────────────────────────────
+
+
+@app.callback(
+    Output("pred-map", "figure"),
+    Output("risk-score-display", "children"),
+    Input("pred-age-select", "value"),
+    Input("pred-county-select", "value")
+)
+def update_prediction_map(age_group, selected_county):
+    # Filter data for chosen age
+    # Assumes your predicted.csv has 'age_group' (adult/child) and 'risk_score'
+    filtered_df = df_predicted[df_predicted['age_group'] == age_group].copy()
+    
+    if filtered_df.empty:
+        return px.choropleth(), html.P("No prediction data available")
+
+    # Create a 'selected' column for visual bolding
+    # Map uses FIPS, so we find the FIPS of the selected county
+    selected_fips = CA_FIPS.get(selected_county)
+    
+    # Base Map
+    fig = px.choropleth(
+        filtered_df,
+        geojson=ca_geo,
+        locations="fips",
+        color="risk_score",
+        color_continuous_scale="Purples",
+        hover_name="county",
+        labels={"risk_score": "Risk Level"}
+    )
+    
+    # Highlight logic: Update line width for the selected county
+    fig.update_traces(
+        marker_line_width=[3 if f == selected_fips else 0.5 for f in filtered_df['fips']],
+        marker_line_color=["black" if f == selected_fips else "white" for f in filtered_df['fips']]
+    )
+
+    fig.update_geos(fitbounds="locations", visible=False)
+    fig.update_layout(
+        margin={"r":0,"t":0,"l":0,"b":0},
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)"
+    )
+
+    # Risk Card
+    row = filtered_df[filtered_df['county'] == selected_county]
+    score = row['risk_score'].values[0] if not row.empty else 0
+    
+    risk_card = html.Div([
+        html.P(f"Predicted Risk for {selected_county}", style=LABEL),
+        html.P(f"{score:.1f}", style={"fontSize":"48px", "fontWeight":"bold", "margin":"0", "color":"#4d004b"}),
+        html.P("Model-based estimation", style={"fontSize":"12px", "color":"#888"})
+    ])
+
+    return fig, risk_card
 
 @app.callback(
     Output("slider-wrap", "children"),
@@ -326,8 +421,6 @@ def build_slider(metric_key):
     return dcc.Slider(id="year-slider", min=years[0], max=years[-1],
                       value=years[-1], marks=marks, step=1,
                       tooltip={"placement":"bottom","always_visible":False})
-
-
 
 
 @app.callback(

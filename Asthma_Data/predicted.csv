@@ -1,0 +1,117 @@
+county,age_group,risk_score
+Alameda,adult,35.59
+Alameda,child,10.05
+Alpine,adult,72.51
+Alpine,child,50.32
+Amador,adult,76.66
+Amador,child,60.35
+Butte,adult,49.0
+Butte,child,73.69
+Calaveras,adult,23.77
+Calaveras,child,25.41
+Colusa,adult,92.42
+Colusa,child,43.47
+Contra Costa,adult,27.44
+Contra Costa,child,41.55
+Del Norte,adult,17.27
+Del Norte,child,21.14
+El Dorado,adult,62.03
+El Dorado,child,45.6
+Fresno,adult,87.64
+Fresno,child,33.09
+Glenn,adult,77.1
+Glenn,child,16.84
+Humboldt,adult,24.8
+Humboldt,child,22.57
+Imperial,adult,40.04
+Imperial,child,64.61
+Inyo,adult,35.27
+Inyo,child,18.44
+Kern,adult,29.64
+Kern,child,43.35
+Kings,adult,33.78
+Kings,child,92.1
+Lake,adult,62.29
+Lake,child,11.24
+Lassen,adult,94.34
+Lassen,child,72.25
+Los Angeles,adult,29.2
+Los Angeles,child,18.04
+Madera,adult,40.26
+Madera,child,84.9
+Marin,adult,23.79
+Marin,child,93.06
+Mariposa,adult,14.72
+Mariposa,child,22.57
+Mendocino,adult,22.35
+Mendocino,child,80.84
+Merced,adult,94.94
+Merced,child,26.85
+Modoc,adult,72.08
+Modoc,child,39.95
+Mono,adult,55.44
+Mono,child,46.26
+Monterey,adult,71.9
+Monterey,child,11.01
+Napa,adult,84.77
+Napa,child,92.16
+Nevada,adult,33.71
+Nevada,child,41.65
+Orange,adult,27.52
+Orange,child,61.7
+Placer,adult,77.1
+Placer,child,36.17
+Plumas,adult,29.92
+Plumas,child,73.25
+Riverside,adult,26.07
+Riverside,child,84.04
+Sacramento,adult,65.72
+Sacramento,child,34.21
+San Benito,adult,30.5
+San Benito,child,65.14
+San Bernardino,adult,74.86
+San Bernardino,child,61.97
+San Diego,adult,14.35
+San Diego,child,11.25
+San Francisco,adult,83.87
+San Francisco,child,64.42
+San Joaquin,adult,33.98
+San Joaquin,child,44.87
+San Luis Obispo,adult,34.65
+San Luis Obispo,child,61.23
+San Mateo,adult,36.39
+San Mateo,child,66.68
+Santa Barbara,adult,17.12
+Santa Barbara,child,79.23
+Santa Clara,adult,81.72
+Santa Clara,child,89.02
+Santa Cruz,adult,64.7
+Santa Cruz,child,74.77
+Shasta,adult,26.6
+Shasta,child,59.94
+Sierra,adult,20.27
+Sierra,child,51.81
+Siskiyou,adult,49.47
+Siskiyou,child,35.27
+Solano,adult,80.39
+Solano,child,12.61
+Sonoma,adult,45.02
+Sonoma,child,68.47
+Stanislaus,adult,42.29
+Stanislaus,child,70.7
+Sutter,adult,32.62
+Sutter,child,15.74
+Tehama,adult,45.34
+Tehama,child,30.31
+Trinity,adult,90.17
+Trinity,child,40.04
+Tulare,adult,65.87
+Tulare,child,62.63
+Tuolumne,adult,76.15
+Tuolumne,child,82.97
+Ventura,adult,58.92
+Ventura,child,40.38
+Yolo,adult,68.33
+Yolo,child,77.42
+Yuba,adult,62.1
+Yuba,child,74.97

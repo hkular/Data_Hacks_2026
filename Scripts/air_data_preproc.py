@@ -17,7 +17,7 @@ root_dir = '/mnt/neurocube/local/serenceslab/Stella/misc/Data_Hacks_2026'
 in_dir = '/mnt/neurocube/local/serenceslab/Stella/misc/EPA_data'
 
 # Years to screen (file name)
-years = ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+years = ['2023', '2024', '2025']
 
 # Particles to screen (file name)
 particles = ['CO', 'HAPS', 'lead', 'NO2', 'NONO', 'ozone', 'SO2', 'VOCS']
@@ -63,5 +63,4 @@ for year in years:
 
 # Save compiled output file
 out_dir = f'{root_dir}/EPA_data/air_aqi_and_particles_annual/'
-df_final.to_csv(f'{out_dir}/2015-2022.csv')
-
+df_final.to_csv(f'{out_dir}/2023-2025.csv')

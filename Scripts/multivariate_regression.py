@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
+import seaborn as sns
+from sklearn.model_selection import KFold
+from sklearn.metrics import r2_score, mean_squared_error
 
 #########################################################################################################
 # Load data, merge and run multivariate regression
@@ -55,8 +58,64 @@ print(f"After data imputation, still have to drop {df_centered.isna().any(axis=1
         f"missing pollutant data.") 
 df_final = df_centered.dropna()
 
-# Run multivariate regression, also include age as a categorical variable
+# Run multivariate regression, also include age as a categorical variable (run on full data once just to get the
+# overall stats, can print individual ones within cv if needed)
 formula = 'AGE_ADJUSTED_ED_VISIT_RATE ~ Q("Ozone") * C(AGE) + Q("Nitric oxide (NO)") * C(AGE)' + \
         '+ Q("Nitrogen dioxide (NO2)") * C(AGE)'
 model = smf.ols(formula=formula, data=df_centered).fit()
 print(model.summary())  
+
+
+# #########################################################################################################
+# # Test prediction and visualize the regression goodness of fit
+# #########################################################################################################
+
+# Create new column with the predicted ED rates
+df_final = df_final.copy()
+df_final['predicted_er_rate'] = np.nan
+
+# Split data and CV when running model
+kf = KFold(n_splits=20, shuffle=True, random_state=411)
+fold_r2 = []
+fold_mse = []
+for train_index, test_index in kf.split(df_final):
+    
+    train_data = df_final.iloc[train_index]
+    test_data = df_final.iloc[test_index]
+
+    fold_model = smf.ols(formula=formula, data=train_data).fit()
+    
+    # Save predictions
+    predicted = fold_model.predict(test_data)
+    df_final.loc[df_final.index[test_index], 'predicted_er_rate'] = predicted
+
+    # Save metrics for current fold
+    r2 = r2_score(test_data['AGE_ADJUSTED_ED_VISIT_RATE'], predicted)
+    mse = mean_squared_error(test_data['AGE_ADJUSTED_ED_VISIT_RATE'], predicted)
+    fold_r2.append(r2)
+    fold_mse.append(mse)
+    print(f"This fold: R² = {r2:.3f}, MSE = {mse:.3f}\n")
+
+# Average and spread of model fit metrics
+mean_r2 = np.mean(fold_r2)
+std_r2 = np.std(fold_r2)
+mean_mse = np.mean(fold_mse)
+std_mse = np.std(fold_mse)
+print("============= Final CV Performance =============")
+print(f"Mean R²:  {mean_r2:.3f} ± {std_r2:.3f}")
+print(f"Mean MSE: {mean_mse:.3f} ± {std_mse:.3f}")
+
+# Visualize results across all folds
+plt.figure(figsize=(8, 6))
+sns.scatterplot(data=df_final, x='AGE_ADJUSTED_ED_VISIT_RATE', y='predicted_er_rate', hue='AGE')
+
+line_min = min(df_final['AGE_ADJUSTED_ED_VISIT_RATE'].min(), df_final['predicted_er_rate'].min())
+line_max = max(df_final['AGE_ADJUSTED_ED_VISIT_RATE'].max(), df_final['predicted_er_rate'].max())
+plt.plot([line_min, line_max], [line_min, line_max], color='red', linestyle='--', label='Ideal Perfect Fit')
+
+plt.title(f"Cross-Validated Model Fit: Actual vs. Predicted (5 Folds)\n Mean R2 = {mean_r2}, Mean MSE = {mean_mse}")
+plt.xlabel("Actual ER Visit Rate (Demeaned)")
+plt.ylabel("Predicted ER Visit Rate")
+plt.legend()
+plt.savefig(f'{out_dir}/cv_prediction.png')
+plt.show()

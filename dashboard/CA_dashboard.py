@@ -142,7 +142,7 @@ aqi = add_fips(aqi)[["county", "year", "fips", "value"]].dropna(subset=["fips", 
 poll = df_pollutants.copy()
 poll.columns = poll.columns.str.strip()
 poll = add_fips(poll).dropna(subset=["fips", "avg_val", "particle"])
-particle_names = sorted(poll["particle"].unique().tolist())
+particle_names = ['Ozone', 'Nitric oxide (NO)', 'Nitrogen dioxide (NO2)']# subset sorted(poll["particle"].unique().tolist())
 particle_dfs = {
     p: (poll[poll["particle"] == p][["county", "year", "fips", "avg_val"]]
         .rename(columns={"avg_val": "value"})

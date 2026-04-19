@@ -26,43 +26,40 @@ for file in aqi_files:
 aqi_df = pd.concat(aqi_dfs, ignore_index=True)
 print(f"AQI data shape: {aqi_df.shape}\n")
 
-# Load ED visit rates by county
-print("Loading ED visit rates by county...")
-ed_df = pd.read_csv('Asthma_Data/asthma-emergency-department-visit-rates-3s8pzn1q/asthma-ed-visit-rates-by-county-2015-present.csv',
-                     encoding='latin-1')
-print(f"ED visits data shape: {ed_df.shape}")
-print(f"Age groups available: {ed_df['AGE GROUP'].unique()}\n")
+# Load cleaned ER visit rates
+print("Loading cleaned ER visit rates...")
+er_df = pd.read_csv('cleaned_er.csv')
+print(f"ER visits data shape: {er_df.shape}")
+print(f"Columns: {er_df.columns.tolist()}")
+print(f"Age groups: {er_df['AGE'].unique()}")
+print(f"Year range: {er_df['YEAR'].min()} - {er_df['YEAR'].max()}")
+print(f"Sample:\n{er_df.head()}\n")
 
-# Rename columns to match for merging
-aqi_df = aqi_df.rename(columns={'County': 'COUNTY'})
-ed_df = ed_df.rename(columns={'YEAR': 'Year'})
+# Standardize county names in AQI data
+aqi_df = aqi_df.rename(columns={'County': 'COUNTY', 'Year': 'YEAR'})
 
-# Define age groups
-children_pattern = '0\x9617 years'  # 0-17 years
-adults_pattern = '18+ years'         # 18+ years
+# Split ER data by age group
+er_children = er_df[er_df['AGE'] == 'child'].copy()
+er_adults = er_df[er_df['AGE'] == 'adult'].copy()
 
-# Split data by age group
-ed_children = ed_df[ed_df['AGE GROUP'] == children_pattern].copy()
-ed_adults = ed_df[ed_df['AGE GROUP'] == adults_pattern].copy()
-
-print(f"Children data: {len(ed_children)} rows")
-print(f"Adults data: {len(ed_adults)} rows\n")
+print(f"Children data: {len(er_children)} rows")
+print(f"Adults data: {len(er_adults)} rows\n")
 
 # Function to create and evaluate model
-def fit_and_report_model(aqi_data, ed_data, age_group_name):
+def fit_and_report_model(aqi_data, er_data, age_group_name):
     print("=" * 70)
     print(f"MODEL: {age_group_name.upper()}")
     print("=" * 70)
 
-    # Merge data
-    merged_df = aqi_data.merge(ed_data, on=['COUNTY', 'Year'], how='inner')
+    # Merge data by COUNTY and YEAR
+    merged_df = aqi_data.merge(er_data, on=['COUNTY', 'YEAR'], how='inner')
     print(f"Merged data shape: {merged_df.shape}")
     print(f"Unique counties: {merged_df['COUNTY'].nunique()}")
-    print(f"Year range: {merged_df['Year'].min()} - {merged_df['Year'].max()}\n")
+    print(f"Year range: {merged_df['YEAR'].min()} - {merged_df['YEAR'].max()}\n")
 
     # Prepare features and target
     X = merged_df[['Median AQI']].values
-    y = merged_df['AGE-ADJUSTED ED VISIT RATE'].values
+    y = merged_df['AGE_ADJUSTED_ED_VISIT_RATE'].values
 
     # Remove NaN values
     valid_idx = ~(np.isnan(X.flatten()) | np.isnan(y))
@@ -103,10 +100,10 @@ def fit_and_report_model(aqi_data, ed_data, age_group_name):
 
 # Fit both models
 model_children, X_children, y_children, y_pred_children, r2_children, rmse_children = \
-    fit_and_report_model(aqi_df, ed_children, "Children (0-17 years)")
+    fit_and_report_model(aqi_df, er_children, "Children")
 
 model_adults, X_adults, y_adults, y_pred_adults, r2_adults, rmse_adults = \
-    fit_and_report_model(aqi_df, ed_adults, "Adults (18+ years)")
+    fit_and_report_model(aqi_df, er_adults, "Adults")
 
 # Create comparison visualization
 fig, axes = plt.subplots(1, 2, figsize=(15, 6))
@@ -116,7 +113,7 @@ axes[0].scatter(X_children, y_children, alpha=0.5, s=50, color='blue', label='Ob
 axes[0].plot(X_children, y_pred_children, color='red', linewidth=2.5, label='Fitted line')
 axes[0].set_xlabel('Median AQI', fontsize=12)
 axes[0].set_ylabel('Age-Adjusted ED Visit Rate', fontsize=12)
-axes[0].set_title(f'Children (0-17 years)\nR² = {r2_children:.4f}, RMSE = {rmse_children:.2f}', fontsize=13)
+axes[0].set_title(f'Children\nR² = {r2_children:.4f}, RMSE = {rmse_children:.2f}', fontsize=13)
 axes[0].legend(fontsize=11)
 axes[0].grid(True, alpha=0.3)
 
@@ -125,21 +122,21 @@ axes[1].scatter(X_adults, y_adults, alpha=0.5, s=50, color='green', label='Obser
 axes[1].plot(X_adults, y_pred_adults, color='red', linewidth=2.5, label='Fitted line')
 axes[1].set_xlabel('Median AQI', fontsize=12)
 axes[1].set_ylabel('Age-Adjusted ED Visit Rate', fontsize=12)
-axes[1].set_title(f'Adults (18+ years)\nR² = {r2_adults:.4f}, RMSE = {rmse_adults:.2f}', fontsize=13)
+axes[1].set_title(f'Adults\nR² = {r2_adults:.4f}, RMSE = {rmse_adults:.2f}', fontsize=13)
 axes[1].legend(fontsize=11)
 axes[1].grid(True, alpha=0.3)
 
-plt.suptitle('Linear Regression: AQI vs Age-Adjusted ED Visit Rates by Age Group',
+plt.suptitle('Linear Regression: AQI vs Age-Adjusted ED Visit Rates by Age Group (cleaned_er.csv)',
              fontsize=14, fontweight='bold', y=1.02)
 plt.tight_layout()
-plt.savefig('aqi_er_visits_by_age_group.png', dpi=150, bbox_inches='tight')
-print("Comparison plot saved as 'aqi_er_visits_by_age_group.png'")
+plt.savefig('aqi_er_visits_by_age_group_cleaned.png', dpi=150, bbox_inches='tight')
+print("Comparison plot saved as 'aqi_er_visits_by_age_group_cleaned.png'")
 
 # Summary comparison
 print("\n" + "=" * 70)
 print("SUMMARY COMPARISON")
 print("=" * 70)
-print(f"{'Metric':<30} {'Children (0-17)':<20} {'Adults (18+)':<20}")
+print(f"{'Metric':<30} {'Children':<20} {'Adults':<20}")
 print("-" * 70)
 print(f"{'Number of observations':<30} {len(X_children):<20} {len(X_adults):<20}")
 print(f"{'Coefficient':<30} {model_children.coef_[0]:<20.6f} {model_adults.coef_[0]:<20.6f}")

@@ -16,7 +16,7 @@ We have already performed extensive cleaning on the datasets located in the `Ast
 1.  **Multivariate Linear Regression:**
     * Script: <code style="color: #28a745; font-family: monospace; font-weight: bold;">multivariate_regression.py</code>
 2.  **XGBoost:**
-    * Script: <code style="color: #28a745; font-family: monospace; font-weight: bold;">filename.py</code>
+    * Script: <code style="color: #28a745; font-family: monospace; font-weight: bold;">xgboost.py</code>
 
 ## 📊 Visualizations & Figures
 The `figs/` directory contains the core visual evidence of our findings. These images are featured in our final hackathon report and include:

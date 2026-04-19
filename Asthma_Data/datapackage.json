@@ -1,0 +1,204 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "California.Breathing@cdph.ca.gov",
+  "data_collection_tool": "Emergency Department data from the California Department of Health Care Access and Information ",
+  "data_license": "Terms of Use",
+  "de_identification_method": "For \"Total Population\" stratum, counts ≤ 5 and their rates are suppressed in accordance with CalHHS Data De-identification Guidelines. For all other strata, counts < 11 and their rates are suppressed in accordance with guidelines. For all data, rates based on counts < 12 are suppressed due to statistical instability.",
+  "description": "This dataset contains counts and rates (per 10,000 residents) of asthma emergency department (ED) visits among Californians. The table “Asthma Emergency Department Visit Rates by County” contains statewide and county-level data stratified by age group (all ages, 0-17, 18+, 0-4, 5-17, 18-64, 65+) and race/ethnicity (white, black, Hispanic, Asian/Pacific Islander, American Indian/Alaskan Native). The table “Asthma Emergency Department Visit Rates by ZIP Code” contains zip-code level data stratified by age group (all ages, 0-17, 18+). The data are derived from the Department of Health Care Access and Information emergency department database. These data include emergency department visits from all licensed hospitals in California. These data are based only on primary discharge diagnosis codes. On October 1, 2015, diagnostic coding for asthma transitioned from ICD9-CM (493) to ICD10-CM (J45). Because of this change, CDPH and CDC do not recommend comparing data from 2015 (or earlier) to 2016 (or later).  NOTE: Rates are calculated from the total number of asthma emergency department visits (not the unique number of individuals).\r\n\r\n",
+  "geo_coverage": "California",
+  "geographic_granularity": "zip code",
+  "keywords": [
+    "California Breathing",
+    "ED visits",
+    "Emergency Department",
+    "asthma",
+    "asthma attack",
+    "asthma emergency department visits",
+    "chronic disease",
+    "department of health care access and information",
+    "disease of repiratory system",
+    "hcai",
+    "health effects",
+    "health outcome",
+    "icd9-cm 493.0",
+    "respiratory disease",
+    "tracking indicator"
+  ],
+  "limitations": "Limitations",
+  "name": "asthma-emergency-department-visit-rates",
+  "program_web_page": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathing.aspx ",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This data table contains counts and rates (per 10,000 residents) of asthma emergency department (ED) visits among Californians statewide and by county. The data are stratified by age group (all ages, 0-17, 18+, 0-4, 5-17, 18-64, 65+) and race/ethnicity (white, black, Hispanic, Asian/Pacific Islander, American Indian/Alaskan Native). The data are derived from the Department of Health Care Access and Information emergency department database.",
+      "format": "CSV",
+      "hash": "aa43a061136697b4b304547fe56bcf46",
+      "name": "asthma-ed-visit-rates-by-county-2015-present",
+      "path": "asthma-ed-visit-rates-by-county-2015-present.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "County of residence\r\n",
+            "name": "COUNTY",
+            "type": "string"
+          },
+          {
+            "description": "Year of emergency department visit\r\n",
+            "name": "YEAR",
+            "type": "string"
+          },
+          {
+            "description": "General demographic category under which responses have been stratified\r\n",
+            "name": "STRATA",
+            "type": "string"
+          },
+          {
+            "description": "Specific demographic type under which responses have been stratified\r\n",
+            "name": "STRATA NAME",
+            "type": "string"
+          },
+          {
+            "description": "All ages, 0-17 years, 18+ years, 0-4 years, 5-17 years, 18-64 years, and 65+ years\r\n",
+            "name": "AGE GROUP",
+            "type": "string"
+          },
+          {
+            "description": "Number of emergency department visits for asthma. Events are counted per visit and not per person (source: OSHPD).\r\n",
+            "name": "NUMBER OF ED VISITS",
+            "type": "string"
+          },
+          {
+            "description": "Calculated by dividing the number of asthma ED visits by the estimated population in that county and age group, age-adjusting to the 2000 U.S. Census, and multiplying by 10,000\r\n",
+            "name": "AGE-ADJUSTED ED VISIT RATE",
+            "type": "string"
+          },
+          {
+            "description": "Information on data suppression. For \"Total Population\" stratum, counts less than or equal to 5 and their rates are suppressed in accordance with CHHS Data De-identification Guidelines. For all other strata, counts less than 11 and their rates are suppressed in accordance with guidelines. For all data, rates based on counts less than 12 are suppressed due to statistical instability. \r\n",
+            "name": "COMMENT",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/34f3464e-b2eb-4f74-9ef9-f378711aa0f5/resource/94d84508-8046-40a7-b8d9-0ed73b13b697/download/asthma-emergency-department-visit-rates-by-county-2015_2023.csv",
+          "title": "Asthma ED Visit Rates by County 2015-Present"
+        }
+      ],
+      "title": "Asthma ED Visit Rates by County 2015-Present"
+    },
+    {
+      "description": "This data table contains counts and rates (per 10,000 residents) of asthma emergency department (ED) visits among Californians by zip code. The data are derived from the Department of Health Care Access and Information emergency department database.",
+      "format": "CSV",
+      "hash": "42f5ce851012dca1fd67a0645ee4abac",
+      "name": "asthma-ed-visit-rates-by-zip-code-2013-present",
+      "path": "asthma-ed-visit-rates-by-zip-code-2013-present.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year in which data were collected\r\n",
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "description": "Patient Zip code \r\n",
+            "name": "Zip_Code",
+            "type": "string"
+          },
+          {
+            "description": "Number of emergency department visits for asthma . The events are per visit to the ED and not per person.  Source: OSHPD\r\n",
+            "name": "Number_of_Asthma_ED_Visits",
+            "type": "string"
+          },
+          {
+            "description": "Calculated by dividing the number of asthma ED visits by the estimated population in that county and age group, age-adjusting to the 2000 U.S. Census, and multiplying by 10,000.\r\n",
+            "name": "Age_Adjusted_Rate_of_Asthma_ED_V",
+            "type": "string"
+          },
+          {
+            "description": "Children (0-17), Adults (18+), or All Ages combined\r\n",
+            "name": "Age_Group",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/34f3464e-b2eb-4f74-9ef9-f378711aa0f5/resource/5b9309d9-5680-4970-85a6-804cce466040/download/asthmaedvisitrates-by-zipcode-allages-2013to2023-ca-cdph_with-county.xls",
+          "title": "Asthma ED Visit Rates by ZIP Code 2013-Present"
+        }
+      ],
+      "title": "Asthma ED Visit Rates by ZIP Code 2013-Present"
+    },
+    {
+      "description": "This data table contains counts and rates (per 10,000 residents) of asthma emergency department (ED) visits among Californians by zip code. The data are stratified by age group (adult 18+, child 0-17). The data are derived from the Department of Health Care Access and Information emergency department database.",
+      "format": "CSV",
+      "hash": "7ed10e05dc39f6062cf9c1205eed70fa",
+      "name": "asthma-ed-visit-rates-by-zip-code-and-age-groups-2013-present",
+      "path": "asthma-ed-visit-rates-by-zip-code-and-age-groups-2013-present.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Zip_Code",
+            "type": "number"
+          },
+          {
+            "name": "Number_of_Asthma_ED_Visits",
+            "type": "number"
+          },
+          {
+            "name": "Age_Adjusted_Rate_of_Asthma_ED_V",
+            "type": "string"
+          },
+          {
+            "name": "Age_Group",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/34f3464e-b2eb-4f74-9ef9-f378711aa0f5/resource/d97325c3-8d5b-47e3-b6d5-527ec8fa6da3/download/asthmaedvisitrates-by-zipcode-2013to2023-ca-cdph_with-county.xls",
+          "title": "Asthma ED Visit Rates by Zip Code and Age Groups 2013-present"
+        }
+      ],
+      "title": "Asthma ED Visit Rates by Zip Code and Age Groups 2013-present"
+    },
+    {
+      "description": "MAP: http://tinyurl.com/AsthmaEDVisitsMap This dataset contains counts and rates (per 10,000) of asthma (ICD9-CM, 493.0-493.9) emergency department visits among California residents by ZIP Code and age group (all ages, 0-17, 18+). For more information please go to www.californiabreathing.org",
+      "format": "PDF",
+      "name": "notes-asthma-ed-visit-rates-by-zip-code",
+      "path": "notes-asthma-ed-visit-rates-by-zip-code.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/34f3464e-b2eb-4f74-9ef9-f378711aa0f5/resource/ef11aedd-b918-41e3-b049-a9377405b42a/download/asthma-ed-visits-by-zip-code.pdf",
+          "title": "Notes-Asthma ED Visit Rates by Zip Code"
+        }
+      ],
+      "title": "Notes-Asthma ED Visit Rates by Zip Code"
+    }
+  ],
+  "secondary_sources": "  www.hcai.ca.gov  ",
+  "sources": [
+    {
+      "name": "California Department of Public Health, California Breathing Asthma Program ",
+      "web": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathingCountyAsthmaProfiles.aspx "
+    }
+  ],
+  "temporal_coverage": "2015-current (ED visits by county, age group, and race/ethnicity); 2009, 2012-current (ED visits by zip code and age group)",
+  "title": "Asthma Emergency Department Visit Rates"
+}

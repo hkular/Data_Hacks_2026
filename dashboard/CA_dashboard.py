@@ -12,12 +12,6 @@ California Asthma & Air Quality Dashboard
 ==========================================
 Interactive choropleth map with metric switcher, year slider, and animation.
 
-SETUP:
-    pip install dash plotly pandas requests
-
-RUN:
-    python california_aqi_dashboard.py
-    open http://127.0.0.1:8050
 """
 
 import requests
@@ -250,6 +244,9 @@ LABEL = {"fontSize":"11px","color":"#888","fontFamily":"sans-serif",
 
 #app = Dash(__name__)
 app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server 
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8050)
 
 app.layout = html.Div(
     style={"fontFamily":"Georgia, serif","backgroundColor":"#f9f8f5",
